@@ -5,6 +5,7 @@ local options = {
     css = { "prettier" },
     html = { "prettier" },
     python = { "autopep8" },
+    yaml = { "prettier" },
   },
 
   format_on_save = {
