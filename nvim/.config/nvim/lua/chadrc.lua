@@ -4,15 +4,20 @@
 local M = {}
 
 M.ui = {
-  theme = "onenord",
-  nvdash = {
-    load_on_startup = true,
-  },
   statusline = {
     theme = "vscode_colored",
   },
+  telescope = {
+    style = "bordered",
+  },
 }
 
-M.base46 = {}
+M.nvdash = {
+  load_on_startup = true,
+}
+
+M.base46 = {
+  theme = "catppuccin",
+}
 
 return M
