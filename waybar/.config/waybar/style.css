@@ -115,6 +115,7 @@ button:hover {
 #battery.charging,
 #battery.plugged {
   background-color: @green;
+  color: #000000;
 }
 
 @keyframes blink {
