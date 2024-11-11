@@ -236,12 +236,12 @@ label:focus {
 }
 
 #idle_inhibitor {
-  background-color: @surface2;
-  color: @text;
+  background-color: @teal;
+  color: @base;
 }
 
 #idle_inhibitor.activated {
-  background-color: @overlay2;
+  background-color: @sky;
 }
 
 #mpd {
