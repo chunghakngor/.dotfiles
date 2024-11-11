@@ -10,12 +10,12 @@
     "idle_inhibitor",
     "pulseaudio",
     "network",
-    "power-profiles-daemon",
     "cpu",
     "memory",
     "temperature",
     "battery",
-    "battery#bat2",
+    "power-profiles-daemon",
+    "custom/power",
     "clock",
   ],
   "mpd": {
@@ -61,7 +61,7 @@
     "tooltip": false,
   },
   "memory": {
-    "format": "{}% RAM",
+    "format": "{used:0.2f}/{total:0.1f}G RAM",
   },
   "temperature": {
     // "thermal-zone": 2,
@@ -82,9 +82,6 @@
     "format-plugged": "{capacity}% ",
     "format-alt": "{time} {icon}",
     "format-icons": ["", "", "", "", ""],
-  },
-  "battery#bat2": {
-    "bat": "BAT2",
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -133,5 +130,19 @@
     },
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null", // Script in resources folder
+  },
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "menu": "on-click",
+    "menu-file": "$HOME/.config/waybar/menu/power_menu.xml",
+    "menu-actions": {
+      "lock": "hyprlock",
+      "logout": "exit",
+      "shutdown": "shutdown",
+      "reboot": "reboot",
+      "suspend": "systemctl suspend",
+      "hibernate": "systemctl hibernate",
+    },
   },
 }

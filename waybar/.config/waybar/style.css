@@ -81,10 +81,24 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
+#custom-power,
 #mpd {
   padding: 0 12px;
   border-radius: 8px;
   color: @base;
+}
+
+menu {
+  border-radius: 8px;
+  background-color: @overlay2;
+}
+
+menuitem {
+  border-radius: 8px;
+}
+
+#custom-power {
+  background-color: @rosewater;
 }
 
 #window,
