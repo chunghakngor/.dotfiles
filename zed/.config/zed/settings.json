@@ -1,0 +1,86 @@
+{
+  // Theme Settings
+  "theme": {
+    "mode": "system",
+    "dark": "Github Dark Dimmed",
+    "light": "Github Light"
+  },
+  // Vim Mode
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  // Font Settings
+  "ui_font_size": 14,
+  "buffer_font_size": 13,
+  "buffer_font_weight": 400,
+  "buffer_line_height": "standard",
+  // Line Rulers and Wrapper
+  "show_wrap_guides": true,
+  "wrap_guides": [80, 120, 160],
+  "preferred_line_length": 120,
+  // Cursor Settings
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  // Scrollbar Settings
+  "scrollbar": {
+    "show": "always"
+  },
+  // Centered Layout
+  "centered_layout": {
+    "left_padding": 0,
+    "right_padding": 0
+  },
+  // Gutter Settings
+  "gutter": {
+    "line_numbers": true,
+    "code_actions": false,
+    "folds": false,
+    "runnables": false
+  },
+  // File Finder
+  "file_finder": {
+    "modal_max_width": "large"
+  },
+  // Additional Features
+  "unnecessary_code_fade": 0.1,
+  "auto_signature_help": true,
+  "show_nav_history_buttons": false,
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": false
+  },
+  "toolbar": {
+    "show": true,
+    "quick_actions": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "assistant": {
+    "version": "2",
+    "button": false
+  },
+  // Code Completion
+  "inline_completions_disabled_in": [".env", ".md"],
+  "features": {
+    "inline_completion_provider": "supermaven"
+  },
+  // Extensions
+  "auto_install_extensions": {
+    "github-theme": true,
+    "latex": true,
+    "terraform": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "wakatime": true,
+    "toml": true,
+    "sql": true,
+    "git-firefly": true
+  }
+}
