@@ -2,8 +2,8 @@
   // Theme Settings
   "theme": {
     "mode": "system",
-    "dark": "Github Dark Dimmed",
-    "light": "Github Light"
+    "dark": "One Dark",
+    "light": "One Light"
   },
   // Vim Mode
   "vim_mode": true,
@@ -33,7 +33,7 @@
   "gutter": {
     "line_numbers": true,
     "code_actions": false,
-    "folds": false,
+    "folds": true,
     "runnables": false
   },
   // File Finder
@@ -69,7 +69,7 @@
   // Code Completion
   "inline_completions_disabled_in": [".env", ".md"],
   "features": {
-    "inline_completion_provider": "supermaven"
+    "inline_completion_provider": "none"
   },
   // Extensions
   "auto_install_extensions": {
