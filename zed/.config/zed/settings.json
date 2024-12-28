@@ -13,6 +13,9 @@
   "buffer_font_size": 13,
   "buffer_font_weight": 400,
   "buffer_line_height": "standard",
+  "buffer_font_features": {
+    "calt": false
+  },
   // Line Rulers and Wrapper
   "show_wrap_guides": true,
   "wrap_guides": [80, 120, 160],
