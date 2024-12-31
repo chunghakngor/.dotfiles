@@ -35,6 +35,7 @@ return {
         "html-lsp",
         "css-lsp",
         "prettier",
+        "prettierd",
         "python-lsp-server",
         "typescript-language-server",
         "docker-compose-language-service",
@@ -64,7 +65,7 @@ return {
     "nvim-tree/nvim-tree.lua",
     opts = {
       filters = {
-        dotfiles = true,
+        dotfiles = false,
       },
       view = {
         width = 40,
