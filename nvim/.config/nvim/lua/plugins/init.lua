@@ -64,8 +64,12 @@ return {
   {
     "nvim-tree/nvim-tree.lua",
     opts = {
+      sort = {
+        sorter = "case_sensitive",
+      },
       filters = {
         dotfiles = false,
+        git_ignored = false,
       },
       view = {
         width = 40,
