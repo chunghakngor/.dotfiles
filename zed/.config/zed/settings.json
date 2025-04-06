@@ -2,7 +2,7 @@
   // Theme Settings
   "theme": {
     "mode": "system",
-    "dark": "One Dark",
+    "dark": "Github Dark Dimmed",
     "light": "One Light"
   },
 
@@ -11,8 +11,8 @@
   "relative_line_numbers": true,
 
   // Font Settings
-  "ui_font_size": 14,
-  "buffer_font_size": 14,
+  "ui_font_size": 13,
+  "buffer_font_size": 12,
   "buffer_font_weight": 400,
   "buffer_line_height": "standard",
   "buffer_font_features": { "calt": false },
@@ -30,22 +30,69 @@
   "gutter": {
     "line_numbers": true,
     "code_actions": false,
-    "folds": false,
+    "folds": true,
     "runnables": false
   },
 
   // File Finder
-  "file_finder": { "modal_max_width": "large" },
+  "file_finder": {
+    "modal_max_width": "large"
+  },
   "show_nav_history_buttons": false,
-  "tabs": { "git_status": true, "file_icons": true },
-  "toolbar": { "show": true, "quick_actions": true },
-  "collaboration_panel": { "button": false },
-  "chat_panel": { "button": true },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "toolbar": {
+    "show": true,
+    "quick_actions": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": true
+  },
+
+  // Language Features
+  "languages": {
+    "TypeScript": {
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    }
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "tsserver": {
+            "maxTsServerMemory": 16184
+          }
+        },
+        "javascript": {
+          "tsserver": {
+            "maxTsServerMemory": 16184
+          }
+        }
+      }
+    }
+  },
 
   // AI Assistant
-  "assistant": { "version": "2", "button": true },
-  "inline_completions_disabled_in": [".env", ".md"],
-  "features": { "inline_completion_provider": "copilot" },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2",
+    "button": true
+  },
+  "edit_predictions_disabled_in": [".env", ".md"],
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
 
   // Extensions
   "auto_install_extensions": {
