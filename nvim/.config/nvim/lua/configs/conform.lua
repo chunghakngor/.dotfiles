@@ -12,8 +12,7 @@ local options = {
     json = { "prettierd" },
     jsonc = { "prettierd" },
   },
-  format_on_save = {
-    async = true,
+  format_after_save = {
     timeout_ms = 500,
     lsp_fallback = true,
   },
