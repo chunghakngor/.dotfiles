@@ -2,7 +2,7 @@
   // Theme Settings
   "theme": {
     "mode": "system",
-    "dark": "Github Dark Dimmed",
+    "dark": "One Dark",
     "light": "One Light"
   },
 
@@ -11,11 +11,13 @@
   "relative_line_numbers": true,
 
   // Font Settings
-  "ui_font_size": 13,
+  "ui_font_size": 12,
   "buffer_font_size": 12,
   "buffer_font_weight": 400,
   "buffer_line_height": "standard",
-  "buffer_font_features": { "calt": false },
+  "buffer_font_features": {
+    "calt": false
+  },
 
   // Line Rulers and Wrapper
   "show_wrap_guides": true,
@@ -29,16 +31,16 @@
   // Gutter Settings
   "gutter": {
     "line_numbers": true,
-    "code_actions": false,
+    "code_actions": true,
     "folds": true,
     "runnables": false
   },
 
   // File Finder
   "file_finder": {
-    "modal_max_width": "large"
+    "modal_max_width": "medium"
   },
-  "show_nav_history_buttons": false,
+  "show_nav_history_buttons": true,
   "tabs": {
     "git_status": true,
     "file_icons": true
@@ -50,10 +52,6 @@
   "collaboration_panel": {
     "button": false
   },
-  "chat_panel": {
-    "button": true
-  },
-
   // Language Features
   "languages": {
     "TypeScript": {
@@ -79,8 +77,6 @@
       }
     }
   },
-
-  // AI Assistant
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
