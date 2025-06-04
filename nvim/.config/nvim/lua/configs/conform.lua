@@ -1,4 +1,4 @@
-local options = {
+require("conform").setup {
   formatters_by_ft = {
     lua = { "stylua" },
     css = { "prettierd" },
@@ -12,10 +12,8 @@ local options = {
     json = { "prettierd" },
     jsonc = { "prettierd" },
   },
-  format_after_save = {
+  format_on_save = {
     timeout_ms = 500,
     lsp_fallback = true,
   },
 }
-
-require("conform").setup(options)
