@@ -19,7 +19,7 @@ sudo apt install -y \
   wget \
   stow \
   vim \
-  neofetch \
+  fastfetch \
   tmux \
   mpv \
   ranger \
@@ -29,9 +29,9 @@ sudo apt install -y \
   bat \
   fzf \
   ncdu \
-  tldr \
+  tealdeer \
   jq \
-  exa \
+  eza \
   htop \
   git \
   wl-clipboard \
